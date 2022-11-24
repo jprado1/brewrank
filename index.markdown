@@ -28,7 +28,7 @@ Hello,
 # FAQ : comment faire les choses qu'on a besoin de faire
 
 - Rajouter une image (ou gif) : 
-![test](../images/test_gif_beer.gif)
+![](../images/test_gif_beer.gif)
 - Le code est:
-```![test](../images/test_gif_beer.gif){:class="img-responsive"}```
+```![test](/images/test_gif_beer.gif){:class="img-responsive"}```
 - Quoi d'autre...? Demandez moi et je cherche
