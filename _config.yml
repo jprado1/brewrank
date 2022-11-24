@@ -23,8 +23,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Hello hello, ceci est un petit guide de comment j'imagine que le site peut être fait. 
   Finalement il y a pas mal de boulot pour mettre en place ce truc du coup si vous avez un background en Wordpress /n'aimez pas travailler avec Jekyll, faut pas hésiter à dire
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: loljenaipas
 github_username:  secret
 
