@@ -25,6 +25,8 @@ Hello,
 - Les thèmes permettent pas mal de personalisation (fonts, tailles, couleurs, format en général) mais je ne sais pas encore comment ça marche. 
 # Points négatifs
 - Il faut s'y mettre pour apprendre lol...
+# Test
+{% include test_adv_usa.html %}
 # FAQ : comment faire les choses qu'on a besoin de faire
 
 - Rajouter une image (ou gif) : 
