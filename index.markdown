@@ -24,6 +24,7 @@ Hello,
 - En gros, Jekyll permet de créer des sites sans savoir rien de HTML, tout est fait en markdown et yaml. C'est peut être plus simple d'expliquer en personne, mais tout site a un fichier ```_config.yml``` qui a les configs de base du site (titre, URL, theme, plugins, socials...) et des fichiers .md ou .markdown qui gardent le vrai contenu. Tout le contenu personalisé de cette page se trouve dans ``ìndex.markdown```. 
 - Les thèmes permettent pas mal de personalisation (fonts, tailles, couleurs, format en général) mais je ne sais pas encore comment ça marche. 
 # Points négatifs
+-blablabla
 - Il faut s'y mettre pour apprendre lol...
 # Test
 {% include test_adv_usa.html %}
