@@ -29,7 +29,7 @@ github_username:  secret
 # Build settings
 
   
-remote_theme: pages-themes/tactile
+remote_theme: pages-themes/slate
 plugins:
 - jekyll-remote-theme
 - jekyll-feed
