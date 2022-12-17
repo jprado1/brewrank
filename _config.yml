@@ -27,7 +27,8 @@ twitter_username: loljenaipas
 github_username:  secret
 
 # Build settings
-
+github:
+  is_project_page: false
   
 remote_theme: pages-themes/slate
 plugins:
