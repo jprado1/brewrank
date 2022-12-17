@@ -28,7 +28,7 @@ twitter_username: loljenaipas
 github_username:  secret
 
 # Build settings
-theme: slate
+remote_theme: pages-themes/
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
