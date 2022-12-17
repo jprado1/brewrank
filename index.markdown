@@ -27,6 +27,11 @@ Hello,
 - Il faut s'y mettre pour apprendre lol...
 # Test
 {% include test_adv_country.html %}
+
+# SAT beer ranking
+
+{% include sat_rank.html %}
+
 # FAQ : comment faire les choses qu'on a besoin de faire
 
 - Rajouter une image (ou gif) : 
