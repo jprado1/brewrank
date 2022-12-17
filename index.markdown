@@ -30,6 +30,8 @@ TODO:
 
 ## A trip to Satellite : learning beer quality from the WWW wisdom
 
+![](/images/pipelineSAT_v0.png){:class="img-responsive"}
+
 @Joao : Rajouter pipeline et texte de comment les données ont été traitées et des outils utilisés
 {% include sat_rank.html %}
 {% include RB_wordclouds.html %}
