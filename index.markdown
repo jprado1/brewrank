@@ -32,6 +32,7 @@ TODO:
 
 @Joao : Rajouter pipeline et texte de comment les données ont été traitées et des outils utilisés
 {% include sat_rank.html %}
+{% include RB_wordclouds.html %}
 
 ### Missing home during exams ? Then read carefully
 
