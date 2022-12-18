@@ -48,7 +48,7 @@ TODO:
 
 
 
-<img src="/images/Dall-E_Ada_drinking_beer.png" alt="drawing" width="200"/>
+<img src="[/images/Dall-E_Ada_drinking_beer.png](https://raw.githubusercontent.com/jprado1/brewrank/prod/images/Dall-E_Ada_drinking_beer.png)" alt="drawing" width="200"/>
 
 Ada Lovelace drinking beer (Dall-E generated) - make joke here
 
