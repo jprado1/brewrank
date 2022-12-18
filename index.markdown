@@ -46,6 +46,9 @@ TODO:
 
 ### Missing home during exams ? Then read carefully
 
+{% include RB_tsne.html %}
+
+
 @Joao : Rajouter description courte de comment on met en rapport les bières aimées en chaque pays et les bières vendues à sat 
 @Joao : rajouter un wordcloud + TSNE graph avec les bières et drapeaux comme marqueurs
 ## To wrap up
