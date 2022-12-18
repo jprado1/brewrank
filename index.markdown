@@ -40,18 +40,25 @@ TODO:
 
 ![](/images/SATpipelineV1.png){:class="img-responsive"}
 
-@Joao : Rajouter pipeline et texte de comment les données ont été traitées et des outils utilisés
-{% include sat_rank.html %}
+@Joao : Rajouter texte de comment les données ont été traitées et des outils utilisés
+{% include sat_rank_separated.html %}
 {% include RB_wordclouds.html %}
 
-### Missing home during exams ? Then read carefully
+### Missing home? Then read carefully
+
+
+
+<img src="/images/Dall-E_Ada_drinking_beer.png" alt="drawing" width="200"/>
+
+Ada Lovelace drinking beer (Dall-E generated) - make joke here
 
 {% include RB_tsne.html %}
 
 
 @Joao : Rajouter description courte de comment on met en rapport les bières aimées en chaque pays et les bières vendues à sat 
-@Joao : rajouter un wordcloud + TSNE graph avec les bières et drapeaux comme marqueurs
+
 ## To wrap up
 
 ## You are still there ? Please have a beer GIF:
+
 ![](/images/test_gif_beer.gif){:class="img-responsive"}
