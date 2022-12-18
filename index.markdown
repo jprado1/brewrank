@@ -8,11 +8,14 @@ We all love to relax and chat with friends. Who doesn't love a cold brew ? Drink
 
 #TODO : 
 
+
 | Dataset  | 🍺   |  🍶  | 👥| 💸  |
-|---|---|---|---|---|
+|:--------|:-------:|--------:|
 | RateBeer  | XX beers from YY countries  |  XX beer styles  | ZZ beer lovers from SS countries | No data  |
 | BeerAdvocate  | XX beers from YY countries  | XX beer styles  | ZZ beer lovers from SS countries  | No data   |
 | Satellite Bar @EPFL)  | 66 beers from 8 countries  | 21 beer styles  | No data  | Beer prices from 3.- to 16.- CHF  |
+
+
 - [Qu'est ce que vous pensez?] Des phrases/bullet point rapides (~100 mots) sur les types de correction/hypothèses qu'on a fait/nous principaux utils de travail ?
 
 
