@@ -66,6 +66,7 @@ You can see our results in the following graph. We also proposed a ranking where
 Ada Lovelace drinking beer (Dall-E generated) - make joke here
 
 {% include RB_tsne.html %}
+{% include BA_tsne.html %}
 
 
 @Joao : Rajouter description courte de comment on met en rapport les bières aimées en chaque pays et les bières vendues à sat 
