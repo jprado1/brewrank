@@ -39,6 +39,18 @@ TODO:
 
 ## A trip to Satellite : learning beer quality from the WWW wisdom
 
+
+In order to propose the best possible assortment of beers sold on campus given the opinion of our internet oracle, we devised the following approach:
+- We scrapped and cleaned the full beer SAT menu from their webpage. (You can check their menu here)
+- We adapted an implementation of Vector Space Retrieval (VSR) retrieved from (CS-423) in order to match SAT beers with beers reviewed in our datasets. For each dataset, we run VSR to find the top 5 matches for a given SAT beer. Matching is done based on the cosine similarity of ‘SAT beer queries’ and ‘Dataset documents’ . In this context, a ‘query’ and ‘document’ are string objects constructed by concatenating and stemming beer name, brewery and ABV.
+- After a first analysis of our matches, we developed an heuristic in order to reproducibly recover the ratings of all SAT beers.
+    - Matches with more than 0.8 cosine similarity and in which ABV matches perfectly are considered perfect matches. Our reasoning is that, since reporting correct ABVs is a legal obligation in many countries
+    - For beers without a perfect match, we manually check for the best match in the group of top 5 retrievals. 
+    - For beers without match, we train a Random Forest model in order to roughly estimate what would be the beer rating. In this case, features for learning are constructed from country of origin of the brewery, ABV and beer style.
+
+You can see our results in the following graph. We also proposed a ranking where ratings are normalised by price and volume for our fellow economically constrained colleagues!
+
+
 ![](/images/SATpipelineV1.png){:class="img-responsive"}
 
 @Joao : Rajouter texte de comment les données ont été traitées et des outils utilisés
