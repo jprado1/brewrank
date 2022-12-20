@@ -34,7 +34,8 @@ TODO:
 @Joao : rajouter graphs de bières plus aimées par pays et de "hidden gems" (bières très bien côtés mais vues par un nombre restreint de personnes (5 < n < 10 peut être? à discuter)
 
 
-{% include test_adv_country.html %}
+{% include map_favourite_beer_RB_country.html %}
+{% include map_favourite_beer_BA_country.html %}
 
 ## A trip to Satellite : learning beer quality from the WWW wisdom
 
