@@ -31,15 +31,12 @@ One of the main challenges when analysing data from rating and review systems co
 
 Inspired by this paper on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. 
 
+
 ![](/images/equation.png){:class="img-responsive"}
 
 ## National treasures : best brew by country and the happiness they bring
 
 Texte de la partie de Gab ici
-TODO:
-
-
-@Joao : rajouter graphs de bières plus aimées par pays et de "hidden gems" (bières très bien côtés mais vues par un nombre restreint de personnes (5 < n < 10 peut être? à discuter)
 
 
 {% include map_favourite_beer_RB_country.html %}
