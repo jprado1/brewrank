@@ -3,7 +3,7 @@ layout: default
 usemathjax: true
 ---
 
-We all love to relax and chat with friends. Who doesn't love a cold brew ? Drinking beer with people is an important social ritual that is often linked to many memories (or the absence of it), especially of our younger days. EPFL is a highly international institution with people from all around the world. They leave their home countries behind to join EPFL but what if we could bring them back a bit of it ? We decided to match beers from SAT, our beloved bar, to the countries where they would be the most appreciated, to recommend them to people missing home and hope it might cure a bit of this homesickness !
+We all love to relax and chat with friends. Who doesn't love a cold brew ? Drinking beer with people is an important social ritual that is often linked to many memories (or the absence of it), especially of our younger days. EPFL is a highly international institution with people from all around the world. They leave their home countries behind to join EPFL but what if we could bring them back a bit of it ? We decided to match beers from SAT, our beloved bar, to the countries where they would be the most appreciated. We can now recommend them to people missing home and hope it might cure a bit of this homesickness ! It is also a tool to ask SAT to buy new beers, since it would be sad to leave people without a beer similar to their country's, don't you think ?
 
 ## A quick sip through our data
 
@@ -35,7 +35,13 @@ Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on 
 
 ## National treasures : best brew by country and the happiness they bring
 
-Texte de la partie de Gab ici
+After some digging we found the beer most voted by each countries and assumed it to be the beer most drinked. It would seem that swiss enjoy SWISS_BEER_NAME !
+
+As we can see the data-sets are mainly representaive of the USA since each states is treated as a country and to a lesser degree Europe is also more represented then the rest of the world. It seems that RateBeer and BeerAdvocate aren't as popular in the rest of the world !
+
+We also counted the mean positive and negative word used by each countries in their reviews to see if some countries were more prone to praise. It would seem that south Europe is harsher than north Europe, which is interesting. 
+
+In the world-map we decided to use the state of California's data since it's the most populated state. We also did a zoom on the USA show the whole data-set.
 
 
 {% include map_favourite_beer_RB_country.html %}
