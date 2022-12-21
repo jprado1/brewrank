@@ -30,6 +30,7 @@ github_username:  secret
 github:
   is_project_page: false
   
+usemathjax : true
 remote_theme: pages-themes/slate
 plugins:
 - jekyll-remote-theme
