@@ -85,12 +85,9 @@ Unfortunately, we believe that the answer for this last question is, in general,
 
 {% include RB_wordclouds.html %}
 {% include BA_wordclouds.html %}
-    <p>
-        <img align="left" src="https://raw.githubusercontent.com/jprado1/brewrank/prod/_includes/BA_wordclouds.html" alt="Estátisticas Gerais" />
 
-        <img align="right" src="https://raw.githubusercontent.com/jprado1/brewrank/prod/_includes/RB_wordclouds.html" >
-    </p>
-</details>
+{% include side_by_side.html %}
+
 
 ## To wrap up
 
