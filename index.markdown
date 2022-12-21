@@ -34,6 +34,8 @@ Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on 
 
 ![](/images/equation.png){:class="img-responsive"}
 
+where $r_{ij}$ is the rating given by user $i$ to beer $j$, $\alpha_i$ is an attenuation factor taking into consideration the number of reviews user $i$ compared to the whole dataset, $b_i$ is the systematic bias of user $i$, $n_i$ is the total number of reviews of user $i$ and $N$ is the total number of reviews of the dataset
+
 ## National treasures : best brew by country and the happiness they bring
 
 Texte de la partie de Gab ici
@@ -50,7 +52,7 @@ In order to propose the best possible assortment of beers sold on campus given t
 ![](/images/SATpipelineV1.png){:class="img-responsive"}
 
 
-- We scrapped and cleaned the full beer SAT menu from their webpage. (You can check their menu here)
+- We scrapped and cleaned the full beer [SAT menu](/https://satellite.bar/bar/), preparing it for analysis.
 - We adapted an implementation of Vector Space Retrieval (VSR) retrieved from (CS-423) in order to match SAT beers with beers reviewed in our datasets. For each dataset, we run VSR to find the top 5 matches for a given SAT beer. Matching is done based on the cosine similarity of ‘SAT beer queries’ and ‘Dataset documents’ . In this context, a ‘query’ and ‘document’ are string objects constructed by concatenating and stemming beer name, brewery and ABV.
 - After a first analysis of our matches, we developed an heuristic in order to reproducibly recover the ratings of all SAT beers.
     - Matches with more than 0.8 cosine similarity and in which ABV matches perfectly are considered perfect matches. Our reasoning is that, since reporting correct ABVs is a legal obligation in many countries
