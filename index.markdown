@@ -34,7 +34,7 @@ Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on 
 
 ![](/images/equation.png){:class="img-responsive"}
 
-where $r_{ij}$ is the rating given by user $i$ to beer $j$, $\alpha_i$ is an attenuation factor taking into consideration the number of reviews user $i$ compared to the whole dataset, $b_i$ is the systematic bias of user $i$, $n_i$ is the total number of reviews of user $i$ and $N$ is the total number of reviews of the dataset
+where $r_{ij}$ is the rating given by user $$i$$ to beer $$j$$, $$\alpha_i$$ is an attenuation factor taking into consideration the number of reviews user $i$ compared to the whole dataset, $$b_i$$ is the systematic bias of user $$i$$, $$n_i$$ is the total number of reviews of user $$i$$ and $$N$$ is the total number of reviews of the dataset
 
 ## National treasures : best brew by country and the happiness they bring
 
