@@ -11,12 +11,15 @@ We all love to relax and chat with friends. Who doesn't love a cold brew ? Drink
 
 | Dataset  | 🍺   |  🍶  | 👥| 💸  |
 |:--------|:-------:|--------:|
-| RateBeer  | XX beers from YY countries  |  XX beer styles  | ZZ beer lovers from SS countries | No data  |
-| BeerAdvocate  | XX beers from YY countries  | XX beer styles  | ZZ beer lovers from SS countries  | No data   |
+| RateBeer  | 396690 beers from YY locations*  |  XX beer styles  | 70120 beer lovers from 222 locations* | No data  |
+| BeerAdvocate  | 247982 beers from YY locations*  | XX beer styles  | 153704 beer lovers from 194 locations*  | No data   |
 | Satellite Bar @EPFL)  | 66 beers from 8 countries  | 21 beer styles  | No data  | Beer prices from 3.- to 16.- CHF  |
 
 
-- [Qu'est ce que vous pensez?] Des phrases/bullet point rapides (~100 mots) sur les types de correction/hypothèses qu'on a fait/nous principaux utils de travail ?
+Our assumptions and decisions and when processing these datasets were:
+
+* Users without a defined country in the dataset were considered to have "Unknown" location. Their data is not considered in the beer preference world map we show, but they are considered in the SAT t-SNE clustering plots.
+* Beers without rating and breweries without beers were not considered.
 
 
 ## An iconic duo : beer opinions and bias
