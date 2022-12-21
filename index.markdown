@@ -24,8 +24,18 @@ Our assumptions and decisions and when processing these datasets were:
 
 ## An iconic duo : beer opinions and bias
 
-Text sur debiasing ici.
-    
+
+
+One of the main challenges when analysing data from rating and review systems comes from the fact that humans are prone to bias. One’s personal bias is not only hard to quantify but may be correlated with other personal features (place of birth, age and personal experiences, to give a few examples).
+
+Inspired by this paper on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. 
+
+$$
+\begin{aligned}
+r^{\star}_{ij} &= r - \alpha_i \cdot b_i \\
+b_{i} &= \frac{1}{n_i}\sum_{\text{Ratings of user $i$}} r_i - \frac{1}{N}\sum_{\text{All dataset ratings}} r_{ij}
+\end{aligned}
+$$
 ## National treasures : best brew by country and the happiness they bring
 
 Texte de la partie de Gab ici
