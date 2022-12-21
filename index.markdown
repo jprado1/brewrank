@@ -32,10 +32,6 @@ One of the main challenges when analysing data from rating and review systems co
 Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. 
 
 
-![](/images/equation.png){:class="img-responsive"}
-
-where $r_{ij}$ is the rating given by user $$i$$ to beer $$j$$, $$\alpha_i$$ is an attenuation factor taking into consideration the number of reviews user $i$ compared to the whole dataset, $$b_i$$ is the systematic bias of user $$i$$, $$n_i$$ is the total number of reviews of user $$i$$ and $$N$$ is the total number of reviews of the dataset
-
 ## National treasures : best brew by country and the happiness they bring
 
 Texte de la partie de Gab ici
