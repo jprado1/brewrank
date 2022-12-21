@@ -82,6 +82,7 @@ Unfortunately, we believe that the answer for this last question is, in general,
 
 
  {% include wordclouds.html %}
+ {% include slate_wordclouds.html %}
 
 ## To wrap up
 
