@@ -15,6 +15,7 @@ We all love to relax and chat with friends. Who doesn't love a cold brew ? Drink
 | Satellite Bar   | 66 beers from 8 countries  | 21 beer styles  | No data  | Beer prices from 3.- to 16.- CHF  |
 
 *Location can be either countries or regions of countries with many active users (e.g. Individual states of the United States or regions of the United Kingdom)
+
 Our assumptions and decisions and when processing these datasets were:
 
 * Users without a defined country in the dataset were considered to have "Unknown" location. Their data is not considered in the beer preference world map we show, but they are considered in the SAT t-SNE clustering plots.
@@ -40,7 +41,11 @@ TODO:
 ## A trip to Satellite : learning beer quality from the WWW wisdom
 
 
-In order to propose the best possible assortment of beers sold on campus given the opinion of our internet oracle, we devised the following approach:
+In order to propose the best possible assortment of beers sold on campus given the opinion of our internet oracle, we devised the approach shown in this pipeline:
+
+![](/images/SATpipelineV1.png){:class="img-responsive"}
+
+
 - We scrapped and cleaned the full beer SAT menu from their webpage. (You can check their menu here)
 - We adapted an implementation of Vector Space Retrieval (VSR) retrieved from (CS-423) in order to match SAT beers with beers reviewed in our datasets. For each dataset, we run VSR to find the top 5 matches for a given SAT beer. Matching is done based on the cosine similarity of ‘SAT beer queries’ and ‘Dataset documents’ . In this context, a ‘query’ and ‘document’ are string objects constructed by concatenating and stemming beer name, brewery and ABV.
 - After a first analysis of our matches, we developed an heuristic in order to reproducibly recover the ratings of all SAT beers.
@@ -50,8 +55,6 @@ In order to propose the best possible assortment of beers sold on campus given t
 
 You can see our results in the following graph. We also proposed a ranking where ratings are normalised by price and volume for our fellow economically constrained colleagues!
 
-
-![](/images/SATpipelineV1.png){:class="img-responsive"}
 
 {% include sat_rank_separated.html %}
 
