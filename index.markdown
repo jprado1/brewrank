@@ -31,12 +31,8 @@ One of the main challenges when analysing data from rating and review systems co
 
 Inspired by this paper on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. 
 
-$$
-\begin{aligned}
-r^{\star}_{ij} &= r - \alpha_i \cdot b_i \\
-b_{i} &= \frac{1}{n_i}\sum_{\text{Ratings of user $i$}} r_i - \frac{1}{N}\sum_{\text{All dataset ratings}} r_{ij}
-\end{aligned}
-$$
+![](/images/equation.png){:class="img-responsive"}
+
 ## National treasures : best brew by country and the happiness they bring
 
 Texte de la partie de Gab ici
