@@ -85,10 +85,7 @@ Unfortunately, we believe that the answer for this last question is, in general,
 
 
 
-
-| RateBeer styles  | BeerAdvocate styles|
-|:--------|--------:|
-| {% include RB_wordclouds.html %}| {% include BA_wordclouds.html %}  | 
+ {% include wordclouds.html %}
 
 ## To wrap up
 
