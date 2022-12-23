@@ -39,7 +39,7 @@ We compute a bias for each user, which is attenuated by a coefficient comprised 
 
 Applying this correction allowed us to witness an evolution in the distribution of ratings: 
 
-<img src="/images/bias_graphs.png" alt="bias_graphs" width="600"/>
+![](/images/bias_graphs.png)
 
 We can see a clear evolution in the distribution of ratings from the RateBeer website after the correction. The distribution shifts to the right: our correction led to a higher proportion of higher ratings, suggesting that users were grading harshly before correction. This effect is not observable in the case of the BeerAdvocate website. This could be because there is an outlier user having reviewed a very high number of beers compared to the other users. Because of this, the attenuation coefficient would become very small for most users, erasing their biases.
 
@@ -79,11 +79,7 @@ In order to propose the best possible assortment of beers sold on campus given t
 
 You can see our results in the following graph. We also proposed a ranking where ratings are normalised by price and volume for our fellow economically constrained colleagues!
 
-<div align="center">
-
 {% include sat_rank_separated.html %}
-
-<\div>
     
 We observe that Rochefort 10 and Rochefort 8 are consistently in the top 3 SAT beers, independently of the dataset used to rank beers sold on Satellite. Nevertheless, when we naively look at the rank based on "rating per CHF and per serving", the cheaper beer wins by far. 
 
