@@ -113,7 +113,7 @@ Unfortunately, we believe that the answer for this last question is, in general,
 
 ## To wrap up
 
-We hope that our data story will help you choose your beer next time you visit SAT. In this work, we have not only proposed a new Imperial Stout for Sattelite’s menu, but we also analysed the general taste and positivity of beer lovers of different countries and took the challenge of dealing with systemic user bias. A beer loving data analyst may find interest in generalising our bias correction approach to other types of bias other than systematic user bias. Moreover, our approach of capitalising on OpenAI Embeddings API and ADA-02 model to produce embeddings vectors, may prove useful to future work interested in compare review systems for product classes other than beer.
+We hope that our data story will help you choose your beer next time you visit SAT. In this work, we have not only proposed a new Imperial Stout for Sattelite’s menu, but we also analysed the general taste and positivity of beer lovers of different countries and took the challenge of dealing with systemic user bias. A beer loving data analyst may find interest in generalising our bias correction approach to other types of bias other than systematic user bias. Moreover, our approach of capitalising on OpenAI Embeddings API and ADA-002 model to produce embeddings vectors, may prove useful to future work interested in compare review systems for product classes other than beer.
 
 
 Thank you for reading, see you at SAT!
