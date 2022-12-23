@@ -79,11 +79,11 @@ In order to propose the best possible assortment of beers sold on campus given t
 
 You can see our results in the following graph. We also proposed a ranking where ratings are normalised by price and volume for our fellow economically constrained colleagues!
 
-<p align="center">
+<div align="center">
 
 {% include sat_rank_separated.html %}
 
-<\p>
+<\div>
     
 We observe that Rochefort 10 and Rochefort 8 are consistently in the top 3 SAT beers, independently of the dataset used to rank beers sold on Satellite. Nevertheless, when we naively look at the rank based on "rating per CHF and per serving", the cheaper beer wins by far. 
 
