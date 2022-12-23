@@ -55,12 +55,13 @@ We also counted the mean positive and negative word used by each countries in th
 
 In the world-map we decided to use the state of California's data since it's the most populated state. We also did a zoom on the USA show the whole data-set.
 
-
 {% include map_favourite_beer_RB_country.html %}
 {% include map_favourite_beer_RB_usa.html %}
 {% include map_favourite_beer_BA_country.html %}
 {% include map_favourite_beer_BA_usa.html %}
 
+
+    
 ## A trip to Satellite : learning beer quality from the WWW wisdom
 
 
@@ -78,9 +79,12 @@ In order to propose the best possible assortment of beers sold on campus given t
 
 You can see our results in the following graph. We also proposed a ranking where ratings are normalised by price and volume for our fellow economically constrained colleagues!
 
+<p align="center">
 
 {% include sat_rank_separated.html %}
 
+<\p>
+    
 We observe that Rochefort 10 and Rochefort 8 are consistently in the top 3 SAT beers, independently of the dataset used to rank beers sold on Satellite. Nevertheless, when we naively look at the rank based on "rating per CHF and per serving", the cheaper beer wins by far. 
 
 We can relate this observatin to the fact that the overall rating of the 50 out of 66 best SAT beers is in a quite close window, between 3.3 and 4.1 for both datasets, after our correction for systematic bias. This would mean that, overall, almost all beers sold at SAT are quite good, and we should probably choose them based on other properties, like their style!
