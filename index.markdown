@@ -39,6 +39,8 @@ We compute a bias for each user, which is attenuated by a coefficient comprised 
 Applying this correction allowed us to witness an evolution in the distribution of ratings: 
 ![](/images/bias_graphs.png)
 
+We can see a clear evolution in the distribution of ratings from the RateBeer website after the correction. The distribution shifts to the right: our correction led to a higher proportion of higher ratings, suggesting that users were grading harshly before correction. This effect is not observable in the case of the BeerAdvocate website. This could be because there is an outlier user having reviewed a very high number of beers compared to the other users. Because of this, the attenuation coefficient would become very small for most users, erasing their biases.
+
 
 
 ## National treasures : best brew by country and the happiness they bring
