@@ -30,7 +30,13 @@ Our assumptions and decisions and when processing these datasets were:
 
 One of the main challenges when analysing data from rating and review systems comes from the fact that humans are prone to bias. One’s personal bias is not only hard to quantify but may be correlated with other personal features (place of birth, age and personal experiences, to give a few examples).
 
-Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. 
+Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. The pipeline to correct the beer ratings is described in the text below and in the accompanying graphic pipeline.
+
+![](/images/Correction_flowchart.png){:class="img-responsive"}
+
+We compute a bias for each user, which is attenuated by a coefficient comprised between 0 and 1 and inversely proportional to the number of ratings a user has provided the platform. By doing so, we want to attenuate the bias of one-time reviewers, and give more weight to the bias of hardened reviewers as this bias is more trustworthy. We then remove the users' bias from all the corresponding ratings, and recompute average ratings for all beers from the debiased ratings of the users. Ratings are kept between 0 and 5. By doing so, we aim at getting fairer and more representaive ratings of the quality of the beers. 
+
+
 
 
 ## National treasures : best brew by country and the happiness they bring
