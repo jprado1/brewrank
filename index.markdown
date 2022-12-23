@@ -109,7 +109,7 @@ Unfortunately, we believe that the answer for this last question is, in general,
 
 
 
- {% include slate_wordclouds.html %}
+ {% include wordclouds.html %}
 
 ## To wrap up
 
