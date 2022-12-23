@@ -20,11 +20,11 @@
 
 title: Let’s talk about what matters to countries, beer !
 email: 
-description: >- # this means to ignore newlines until "baseurl:"
-  and what matter to students : which is the best beer on SAT?
+description: Pour yourself a drink and let the data flow.
+ 
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: loljenaipas
-github_username:  secret
+twitter_username: HotChocolate
+github_username:  HotChocolate
 
 # Build settings
 github:
