@@ -81,7 +81,7 @@ You can see our results in the following graph. We also proposed a ranking where
 
 {% include sat_rank_separated.html %}
     
-We observe that Rochefort 10 and Rochefort 8 are consistently in the top 3 SAT beers, independently of the dataset used to rank beers sold on Satellite. Nevertheless, when we naively look at the rank based on "rating per CHF and per serving", the cheaper beer wins by far. 
+We observe that Rochefort 10 and Rochefort 8 are consistently in the top 3 SAT beers, independently of the dataset used to rank beers sold on Satellite. Nevertheless, when we naively look at the rank based on "rating per CHF and per serving", the cheaper beer wins by far. A regression analysis showed that price, volume and the interaction between these two parameters account for 0.949 (RateBeer) and 0.948 (Beer Advocate) of the explained variance, confirming our intuition.
 
 We can relate this observatin to the fact that the overall rating of the 50 out of 66 best SAT beers is in a quite close window, between 3.3 and 4.1 for both datasets, after our correction for systematic bias. This would mean that, overall, almost all beers sold at SAT are quite good, and we should probably choose them based on other properties, like their style!
 
