@@ -38,7 +38,8 @@ Inspired by [this paper](https://krisjensen.github.io/files/bias_blog.pdf) on th
 We compute a bias for each user, which is attenuated by a coefficient comprised between 0 and 1 and inversely proportional to the number of ratings a user has provided the platform. By doing so, we want to attenuate the bias of one-time reviewers, and give more weight to the bias of hardened reviewers as this bias is more trustworthy. We then remove the users' bias from all the corresponding ratings, and recompute average ratings for all beers from the debiased ratings of the users. Ratings are kept between 0 and 5. By doing so, we aim at getting fairer and more representaive ratings of the quality of the beers. 
 
 Applying this correction allowed us to witness an evolution in the distribution of ratings: 
-![](/images/bias_graphs.png)
+
+<img src="/images/bias_graphs.png" alt="bias_graphs" width="600"/>
 
 We can see a clear evolution in the distribution of ratings from the RateBeer website after the correction. The distribution shifts to the right: our correction led to a higher proportion of higher ratings, suggesting that users were grading harshly before correction. This effect is not observable in the case of the BeerAdvocate website. This could be because there is an outlier user having reviewed a very high number of beers compared to the other users. Because of this, the attenuation coefficient would become very small for most users, erasing their biases.
 
