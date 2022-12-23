@@ -30,7 +30,7 @@ Our assumptions and decisions and when processing these datasets were:
 
 One of the main challenges when analysing data from rating and review systems comes from the fact that humans are prone to bias. One’s personal bias is not only hard to quantify but may be correlated with other personal features (place of birth, age and personal experiences, to give a few examples).
 
-Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. The pipeline to correct the beer ratings is described in the text below and in the accompanying graphic pipeline.
+Inspired by [this paper](/https://krisjensen.github.io/files/bias_blog.pdf/) on the modelling and correction of bias of NeurIPS papers, we aim to decrease the effect of systematic reviewer bias by applying a ‘mean-field’ correction to our datasets’ ratings. The pipeline to correct the beer ratings is described in the flowchart below and its accompanying text.
 
 ![](/images/Correction_flowchart.png)
 
