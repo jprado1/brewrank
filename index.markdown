@@ -45,7 +45,7 @@ We can see a clear evolution in the distribution of ratings from the RateBeer we
 
 ## National treasures : best brew by country and the happiness they bring
 
-After some digging we found the beer most voted by each countries and assumed it to be the beer most drinked. It would seem that swiss enjoy SWISS_BEER_NAME !
+After some digging we found the beer most voted by each countries and assumed it to be the beer most drinked. It would seem that swiss enjoy BFM La Torpille or Feldschlossen Original Lager ! Users from RateBeer might be fancier than their BeerAdvocate counterpart.
 
 As we can see the data-sets are mainly representaive of the USA since each states is treated as a country and to a lesser degree Europe is also more represented then the rest of the world. It seems that RateBeer and BeerAdvocate aren't as popular in the rest of the world !
 
@@ -55,7 +55,9 @@ In the world-map we decided to use the state of California's data since it's the
 
 
 {% include map_favourite_beer_RB_country.html %}
+{% include map_favourite_beer_RB_usa.html %}
 {% include map_favourite_beer_BA_country.html %}
+{% include map_favourite_beer_BA_usa.html %}
 
 ## A trip to Satellite : learning beer quality from the WWW wisdom
 
